@@ -4,7 +4,7 @@ import { SiLeetcode } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <footer className="py-16 bg-cover bg-center bg-no-repeat border-t border-gray-500 text-white" style={{backgroundImage: "url('src/assets/img/footer-bg.png')"}}>
+    <footer className="py-16 bg-cover bg-center bg-no-repeat border-t border-gray-500 text-white" style={{backgroundImage: "url('./assets/img/footer-bg.png')"}}>
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-8 md:mb-0">
