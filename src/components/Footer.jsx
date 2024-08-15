@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import footerBg from '../assets/img/footer-bg.png';
 
 export const Footer = () => {
   return (
-    <footer className="py-16 bg-cover bg-center bg-no-repeat border-t border-gray-500 text-white" style={{backgroundImage: "url('./assets/img/footer-bg.png')"}}>
+    <footer className="py-16 bg-cover bg-center bg-no-repeat border-t border-gray-500 text-white" style={{backgroundImage: `url(${footerBg})`}}>
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-8 md:mb-0">

@@ -1,6 +1,7 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { motion } from "framer-motion";
+import colorSharpImg from '../assets/img/color-sharp.png';
 
 export const Contact = () => {
   const socialMedia = [
@@ -24,7 +25,7 @@ export const Contact = () => {
     }
   ];
   return (
-    <div className="" style={{backgroundImage:"url(./assets/img/color-sharp.png)"}} id="connect">
+    <div className="" style={{backgroundImage:"url(/assets/img/color-sharp.png)"}} id="connect">
       <div className="text-white py-[50px] md:py-[100px] flex items-center justify-center container mx-auto max-w-screen-md  px-6 " id="contact">
         <div className="text-center">
           <motion.h5
