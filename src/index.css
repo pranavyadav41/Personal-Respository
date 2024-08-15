@@ -1,6 +1,10 @@
-body {
+html,body {
     background-color: #121212;
     overflow-x: hidden;
+  }
+
+  * {
+    font-family: "Roboto", sans-serif;
   }
   
   @tailwind base;

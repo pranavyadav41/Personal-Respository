@@ -1,7 +1,6 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { motion } from "framer-motion";
-import bg from "../assets/img/color-sharp.png"
 
 export const Contact = () => {
   const socialMedia = [
@@ -25,7 +24,7 @@ export const Contact = () => {
     }
   ];
   return (
-    <div className="" style={{backgroundImage:`url(${bg})`}} id="connect">
+    <div className="" style={{backgroundImage:"url(/assets/img/color-sharp.png)"}} id="connect">
       <div className="text-white py-[50px] md:py-[100px] flex items-center justify-center container mx-auto max-w-screen-md  px-6 " id="contact">
         <div className="text-center">
           <motion.h5
@@ -41,7 +40,7 @@ export const Contact = () => {
               duration: 1,
               delay: 0.5,
             }}
-            className="text-[#fff] text-2xl font-bold"
+            className="text-[#fff] text-2xl md:text-2xl font-bold"
           >
             MY CONTACT
           </motion.h5>
@@ -58,7 +57,7 @@ export const Contact = () => {
               duration: 1,
               delay: 0.6,
             }}
-            className="text-[#fff] text-5xl mt-2 font-bold"
+            className="text-[#fff] text-4xl md:text-5xl mt-2 font-bold"
           >
             Contact <span className="text-[#99438A]">Me Here</span>
           </motion.h1>

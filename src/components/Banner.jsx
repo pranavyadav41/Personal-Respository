@@ -56,7 +56,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="inline-block font-bold text-xl text-white tracking-wide py-2 px-3 bg-gradient-to-r from-[rgba(170,54,124,0.5)] to-[rgba(74,47,189,0.5)] border border-white border-opacity-50 mb-4">
+                <span className="inline-block font-bold  text-sm md-text-xl text-white tracking-wide py-2 px-3 bg-gradient-to-r from-[rgba(170,54,124,0.5)] to-[rgba(74,47,189,0.5)] border border-white border-opacity-50 mb-4">
                   Welcome to my Portfolio
                 </span>
                 <h1 className="text-6xl text-white font-bold tracking-wide leading-none mb-5">
