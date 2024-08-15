@@ -67,7 +67,7 @@ export const Works = () => {
       title: "Service Booking App",
       description: "PAW pet grooming service is a web application built using React, Node.js, Express, and MongoDB. It features streamlined authentication using Nodemailer and Google login, enhancing security with JWT tokens. The platform allows image uploads using Multer and S3 bucket for efficient storage and includes real-time chat and videocall functionality using Socket.io & Zegocloud.Included Precise location selection with Mapbox integration and It also integrates a secure payment gateway through Paypal for seamless transactions.",
       technologies: ["React", "Express", "MongoDB", "Tailwind CSS", "Node.js"],
-      image: "src/assets/img/project-img1.png",
+      image: "./assets/img/project-img1.png",
       githubLink: "https://github.com/pranavyadav41/Paw_frontend",
       liveLink: "https://paw-kohl.vercel.app/"
     },
@@ -75,7 +75,7 @@ export const Works = () => {
       title: "Ecommerce Website",
       description: "SOUNDMAGIC is a dynamic e-commerce platform for audio enthusiasts, offering a seamless shopping experience. Built with Node.js, Express, and MongoDB, it features a user-friendly interface, secure payments, advanced search and filtering, and real-time order tracking. The responsive design, powered by CSS, HTML, and Bootstrap, ensures a smooth experience across all devices.",
       technologies: ["CSS", "HTML", "Ajax", "Bootstrap", "Node.js", "Express", "MongoDB"],
-      image: "src/assets/img/project-img2.png",
+      image: "./assets/img/project-img2.png",
       githubLink: "https://github.com/pranavyadav41/soundMagic",
       liveLink: "https://soundmagic.onrender.com "
     }
